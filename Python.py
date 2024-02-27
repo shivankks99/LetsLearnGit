@@ -35,3 +35,4 @@ class MainPage(BasePage):
         #*MainPageLocators.SEARCH_INPUT means it will send locator type and element string in 2 part
         self.enter_text(*MainPageLocators.SEARCH_INPUT,search_string) 
         self.click_button(*MainPageLocators.SEARCH_BUTTON)
+        print("trewefgfd")
